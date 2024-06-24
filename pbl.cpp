@@ -437,7 +437,7 @@ void displayLent (Node head ){
     int count = 1;
     Node p = head ;
     while (p != NULL)
-        {  if (p->BookInf.soluongmuon>0 ){
+        {  if (p->BookInf.soluongmuon>0 &&p->BookInf.tinh_trang_sach ==0 ){
             printf("%-10d%-40s%-40s%-40s%-25d%-10d%-10d\n",p->BookInf.ms, p->BookInf.ten, p->BookInf.tac_gia, p->BookInf.nha_xuat_ban,
              p->BookInf.nam, p->BookInf.tinh_trang_sach,p->BookInf.soluongmuon);
              
@@ -681,19 +681,26 @@ book getLineData(char *line ){
           strcpy(book.nha_xuat_ban,token);
         else if (index==3)
           book.nam = atoi(token);
-        else if (index==4 ) 
-          book.soluong = atoi(token) ;
+          else if (index==4) 
+          book.tinh_trang_sach= atoi (token ) ;
+        else if (index==5 ) {
+          book.soluong = atoi(token);
+          if (book.soluong < 0 && book.tinh_trang_sach==0 ) {
+          	book.soluongmuon=abs(book.soluong);
+			book.soluong=0; 
+		  }
+	}
         else {
             printf ("Du lieu khong hop le!");
             exit (-1);
            }
        }
-        if (index < 4) {
+        if (index < 5 ) {
         printf("Dong không day du thông tin\n");
         exit(-1);
     }
-    book.tinh_trang_sach = TRUE;
-    book.soluongmuon=0; 
+  //  book.tinh_trang_sach = TRUE;
+    //book.soluongmuon=0; 
   return book;
 }
 Node  ReadFile (Node head , char fname[100]){

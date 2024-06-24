@@ -1,10 +1,10 @@
-1004,tam cam,dan gian,van hoc,1995,1,5,
-1000,Giai tich,TS Vu Gia Te,NXB Thong tin va Truyen thong,2004,1,10,
-1001,Vat li dai cuong,Pham Duy Lac,NXB Giao duc,2002,1,10,
-1003,Toan roi rac,GS. Nguyen Huu Anh,NXB Giao duc,1998,1,10,
-1006,Dai so tuyen tinh,Nguyen Huu Viet Hung,NXB Giao duc va Dao tao,1999,1,10,
-1007,Cau truc du lieu va Giai thuat,TS. Pham The Bao,NXB Bo Giao Duc,1998,1,10,
-1008,Ky thuat lap trinh,Tran Tuan Minh,NXB Bo Giao duc,1997,1,10,
-1009,Truyen Kieu,Nguyen Du,NXB Bo Giao duc,1982,1,10,
-1010,Mat Biec,Nguyen Nhat Anh,Nha xuat ban tre,1996,1,10,
-1011,Toi thay hoa vang tren co xanh,Nguyen Nhat Anh,Nha xuat ban tre,1994,1,10,
+1000,Giai tich,TS Vu Gia Te,NXB Thong tin va Truyen thong,2004,1,10
+1001,Vat li dai cuong,Pham Duy Lac,NXB Giao duc,2002,1,20
+1002,Toan roi rac,GS. Nguyen Huu Anh,NXB Giao duc,1998,1,11 
+1003,Thu cho em,Hoang Nam Tien,NXB Hoi Nha Van,2020,0,-5 
+1004,Dai so tuyen tinh,Nguyen Huu Viet Hung,NXB Giao duc va Dao tao,1999,1,10
+1005,Cau truc du lieu va Giai thuat,TS. Pham The Bao,NXB Bo Giao Duc,1998,0,-4 
+1006,Ky thuat lap trinh,Tran Tuan Minh,NXB Bo Giao duc,1997,1,15 
+1007,Truyen Kieu,Nguyen Du,NXB Bo Giao duc,1982,1,10
+1008,Mat Biec,Nguyen Nhat Anh,Nha xuat ban tre,1996,0,-4 
+1009,Toi thay hoa vang tren co xanh,Nguyen Nhat Anh,Nha xuat ban tre,1994,1,14 
